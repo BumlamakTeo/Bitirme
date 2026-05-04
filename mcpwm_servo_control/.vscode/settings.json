@@ -1,0 +1,23 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "C:\\Users\\berka\\esp\\v5.5.1\\esp-idf",
+  "idf.toolsPathWin": "C:\\Espressif",
+  "idf.pythonInstallPath": "C:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "OPENOCD_SCRIPTS": "c:\\Users\\berka\\workspace\\tools\\openocd-esp32\\v0.12.0-esp32-20241016/openocd-esp32/share/openocd/scripts",
+    "IDF_CCACHE_ENABLE": "1",
+    "ESP_ROM_ELF_DIR": "c:\\Users\\berka\\workspace\\tools\\esp-rom-elfs\\20240305/",
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=C:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20241119\\xtensa-esp-elf\\bin\\xtensa-esp32s3-elf-gcc.exe",
+    "--compile-commands-dir=c:\\Users\\berka\\Documents\\Bitirme\\mcpwm_servo_control\\build"
+  ],
+  "idf.portWin": "COM26",
+  "idf.flashType": "UART"
+}
